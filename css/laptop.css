@@ -1,0 +1,153 @@
+/* Header */
+
+.banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(78, 77, 77, 0.5)),
+    url(/images/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  position: relative;
+}
+
+/* Navbar */
+
+.nav a {
+  text-decoration: none;
+  color: #495057;
+}
+
+.nav a i {
+  color: #339af0;
+}
+
+.nav__avatar img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 4px solid #f7f7f7;
+  transform: scale(2.2);
+}
+
+/* About */
+
+.bg-grey {
+  background-color: #e9ecef;
+}
+
+#about ul li {
+  list-style: none;
+}
+
+#about i {
+  color: #339af0;
+}
+
+/* Job info */
+
+.dot {
+  width: 12px;
+  height: 12px;
+  background-color: #339af0;
+  border-radius: 50%;
+  margin-top: 8px;
+  margin-right: 12px;
+}
+
+/* .job__exp--blue {
+  background-color: #339af0;
+  color: lightcyan;
+  border-radius: 4px;
+  padding: 2px 4px;
+} */
+
+/* interest */
+
+.job_itr--wrap {
+  width: 64px;
+  height: 64px;
+  border: 1px solid #339af0;
+  border-radius: 50%;
+  color: #339af0;
+  margin-bottom: 12px;
+
+  justify-self: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Lang */
+.job__lang__div span,
+.job__skill__div span {
+  display: inline-block;
+  width: 20%;
+  height: 2px;
+  background-color: #dee2e6;
+  margin-right: 4px;
+  margin-bottom: 24px;
+}
+
+span.job__div--blue,
+span.job__div--blue {
+  background-color: #339af0;
+}
+
+.margin-right div {
+  margin-right: 4px;
+}
+
+/* Certificate */
+
+#certificate img,
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.bd-bt {
+  border-bottom: 2px solid #d6c08d;
+}
+
+.bd-r {
+  border-right: 2px solid #d6c08d;
+  margin-bottom: 30px;
+}
+
+/* Project */
+
+.project-item1--blue {
+  background-color: #339af0;
+  color: lightcyan;
+  padding: 2px 8px;
+  border-radius: 100px;
+}
+
+#project a {
+  text-decoration: none;
+}
+
+/* Footer */
+#footer ul {
+  list-style: none;
+}
+
+#footer a {
+  text-decoration: none;
+  color: #868e96;
+}
+
+.footer-icon--wrap {
+  width: 35px;
+  height: 35px;
+  background-color: #339af0;
+  border-radius: 50%;
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .inside-avatar {
+    width: 40%;
+  }
+}

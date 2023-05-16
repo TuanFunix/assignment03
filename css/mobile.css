@@ -1,0 +1,22 @@
+@media (max-width: 576px) {
+  .banner {
+    background-position: center;
+  }
+
+  /* Navbar */
+  .nav {
+    flex-direction: column;
+  }
+
+  .nav a {
+    border: none !important;
+    margin-left: 32px;
+  }
+
+  /* certificate */
+  .bd-r {
+    border-right: none !important;
+    border-bottom: 2px solid #d6c08d;
+    margin-bottom: 0 !important;
+  }
+}

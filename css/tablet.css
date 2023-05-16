@@ -1,0 +1,23 @@
+@media (max-width: 768px) {
+  .banner {
+    background-position: center;
+  }
+
+  /* Navbar */
+  .nav {
+    flex-wrap: nowrap;
+    width: 100%;
+  }
+
+  .inside-avatar {
+    width: 100%;
+  }
+
+  .nav__avatar img {
+    display: none;
+  }
+
+  /* Job info */
+
+  /* Project */
+}
