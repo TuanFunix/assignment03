@@ -2,7 +2,7 @@
 
 .banner {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(78, 77, 77, 0.5)),
-    url(/images/banner.jpg);
+    url(../images/banner.jpg);
   background-size: cover;
   background-position: center;
   height: 60vh;
